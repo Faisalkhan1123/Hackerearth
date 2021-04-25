@@ -1,0 +1,17 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+	int num,y;
+	cin >> num;										// Reading input from STDIN
+   y=num/5;
+   if(num%5==0){
+	   cout<<y;
+   }
+   else
+   {
+	   cout<<(y+1);
+   }
+return 0;
+}
