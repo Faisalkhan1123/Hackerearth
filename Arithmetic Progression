@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+		int a,b,c;
+		cin>>a>>b>>c;
+		int result=abs((b-a)-(c-b));
+		if(result%2==0){
+			cout<<result/2<<endl;
+		}
+		else{
+			cout<<(result+1)/2<<endl;
+		}
+	}
+	return 0;
+}
