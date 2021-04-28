@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int N;
+  int SH;
+  int SM;
+  int EH;
+  int EM;
+ cin>>N;
+for(int i=0; i<N; i++){
+    cin>>SH;
+	cin>>SM;
+	  cin>>EH;
+      cin>>EM;
+     int x = EH-SH;
+     int y = EM-SM;
+      if(y < 0){
+    cout<<x-1<<" "<<y+60<<endl;
+   }
+  else{
+     cout<<x<<" "<<y<<endl;
+  }
+}
+    
+ 
+    return 0;}
