@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+	int t; 
+	cin>>t;
+		int n;
+		
+		int down=0, up=7;
+	while(t--){
+	cin>>n;
+		if(n<=(up+down)/2){
+			cout<<"A"<<endl;
+			down=n;
+		}
+		else if(n>(up+down)/2){
+			cout<<"B"<<endl;
+			up=n;
+		}
+	}
+	return 0;
+		
+	}
